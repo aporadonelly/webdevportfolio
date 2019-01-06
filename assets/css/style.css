@@ -16,8 +16,8 @@
 }
 
 .navbar {
-  background: #083D77;
-  border-bottom: 5px solid #FFE347;
+  background: #2D3047;
+  border-bottom: 5px solid #E0CA3C;
 }
 
 .nav-link {
@@ -64,7 +64,7 @@
 }
 
 .about-intro {
-  color: #D80032;
+  color: indianred/*#D80032*/;
   margin-bottom: 25px;  
  /* */
 }
@@ -87,6 +87,7 @@
   width: 100%;
 }
 
+
 ol li {
   text-align: left;
 }
@@ -96,6 +97,10 @@ ol li {
   font-weight: bold;
   text-decoration: none;
 }
+
+.card {
+   background: rgba(255,255,255,.7);
+  }
 
   /*.card-1 {
    background: rgba(40,83,107,.9);
@@ -110,7 +115,12 @@ ol li {
   }*/
 
 .exps-bg {
-  background: #FFE347;
+  background: url('../images/pic4.jpeg')no-repeat right center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+  /*background: #E0CA3C;*/
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -131,19 +141,21 @@ ol li {
 }
 
 #projects {
-  /*background: rgba(40,83,107,.9);*/
+ /* background: #2D3047;*/
+  /*height: auto;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  height: auto;
+  margin-bottom: 40px;*/
   background: url('../images/contact2.jpeg')no-repeat right center fixed;
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size: cover;
+  /*background: #E0CA3C;*/
+  padding-top: 50px;
   padding-bottom: 50px;
-  height: auto;
-  margin-top: 40px;
-  padding-top: 40px;
-  padding-bottom: 100px;
-  height: auto;
-  margin-bottom: 40px;
 }
 
 .title {
@@ -178,7 +190,7 @@ ol li {
   color: #fff;
   font-weight: bold;
   font-size: 16px;
-  border: 4px solid;
+  border: 2px solid #fff;
   cursor: pointer;
 }
 
@@ -230,7 +242,8 @@ ol li {
 }
 
 .contactMe {
-  background: rgba(40,83,107,.9);
+  background: #048A81;
+  /*background: rgba(40,83,107,.9);*/
   margin-bottom: 50px;
   /*background: url('../images/contact2.jpeg')no-repeat right center fixed;
   -webkit-background-size: cover;
@@ -258,8 +271,8 @@ ol li {
 }
 
 .page-footer {
-  background: #083D77;
-  border-top: 5px solid #FFE347;
+  background: #2D3047;
+  border-top: 5px solid #E0CA3C;
 }
 
 .page-footer .fab {
@@ -328,7 +341,8 @@ figure.snip0019 figcaption::before {
 figure.snip0019 h2,
 figure.snip0019 p {
   margin: 0;
-  padding: 15px;
+  padding-top: 35px;
+  padding-bottom:  15px;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -436,7 +450,47 @@ em {
 }
 
 
+/*mobile device*/
+@media only screen and (max-width: 400px) {
 
+  * {
+    margin:0;
+    padding: 0;
+  }
+
+  body {
+    margin-left: 0;
+  }
+
+  .nav-link {
+    color:#fff;
+    font-family: Raleway, Helvetica, serif;
+    font-size: 13px;
+    margin-left: 0;
+  }
+
+  .welcome-message {
+    letter-spacing: 1px;  
+  }
+
+  .welcome-message h1 {
+    font-size: 45px;
+    margin-top: 40px;
+  }
+
+  #typeline {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .myImage {
+    border-radius: 100%;
+    margin-top: -60px;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #fff;
+  }
+}
 
 
 
