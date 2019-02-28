@@ -4,10 +4,20 @@
 	<title>Web Dev Portfolio</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Abel|Audrey|Iceberg|Charm|Thasadith|Playfair+Display|Yatra+One|Merriweather|Kaushan+Script|Tangerine|Italianno|Raleway" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Bodoni|Trajan|Roboto|Abel|Audrey|Iceberg|Charm|Thasadith|Playfair+Display|Yatra+One|Merriweather|Kaushan+Script|Tangerine|Italianno|Raleway" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- in your header -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+	<link rel="stylesheet" href="css/animate.css">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>
@@ -15,7 +25,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 	
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-		<a class="navbar-brand" href="index.html"><span class="nLogo">Nelly Aporado</span></a>
+		<a class="navbar-brand" href="index.html"><span class="nLogo">NRTA</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
 			<span class="navbar-toggler-icon icon"></span>
 		</button>
@@ -24,7 +34,7 @@
 				<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
 				<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 				<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-				<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+				<!-- <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li> -->
 				<li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
 			</ul>
 		</div>
@@ -33,49 +43,51 @@
 	<main class="main">
 		<section id="home">
 			<div class="container-fluid bg">
-				<div class="d-flex justify-content-center text-center align-items-center">
-					<div class="welcome-message">					
-						<h1 class="display-1 highlight text-light mt-5">Hello, I am <span class="highlight">Nelly!</span></h1>
-						
-						<p class="lead align-items-center display-4 text-uppercase text-light mt-5"><span id = "staticText" ><span id="typeline" ></span></span></p>
-							
-						<!-- <a class="btn active btn-lg text-uppercase text-light mx-auto mt-5" href="#projects" role="button"><i class="fas fa-chevron-circle-down"></i></a> -->
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div class="d-flex justify-content-center text-center align-items-center">
+							<div class="welcome-message">					
+								<h1 class="highlight">Hello, I am Nelly!</h1>
+								
+								<p class="lead align-items-center display-4 text-uppercase text-light mt-5"><span id = "staticText" ><span id="typeline" ></span></span></p>									
+							</div>
+						</div>		
 					</div>
-				</div>	
+				</div>
 			</div>			
 		</section>
 
-		<section id="about">
+		<!-- <section id="about">
 			<div class="container">	
 				<div class="d-flex justify-content-center align-items-start">
 					<div>								
-						<img class="d-block myImage mx-auto animated bounceInDown delay-3s" src="assets/images/aboutMe.jpg" alt="Nelly on the mall"></a>
+						<img class="wow bounceInUp d-block myImage mx-auto data-wow-duration="2s" data-wow-delay="2s"" src="assets/images/aboutMe.jpg" alt="Nelly on the mall"></a>
 					</div>
 				</div>				
 			</div>
-		</section>
+		</section> -->
 
 
-		<section id="aboutMe" id="about">
-			<div class="container">
+		<section id="aboutMe">
+			<div class="container"  id="about">
 				<div class="row">
-					<div class="col-sm-6 about">	
-						<h1 class="text-center line-1 anim-typewriter about-intro mt-4"><span class="hello">Hello!</span> a little about me,</h1>						
+					<div class="col-lg-6 col-md-12 col-sm-12 about">	
+						<h1 class="text-center line-1 about-intro mt-4 mb-5"><span class="hello">Hola!</span> a little about me,</h1>						
 						<p class="about-para">I'm <strong>Nelly</strong>, a Web Designer and Developer. I believe in crafting thoughtful user experiences for web and mobile platforms. I am passionate about creating design concepts that initiate meaningful connection points between people and the product. I actively seeks and formulates true design solutions, to help my clients meet their goals.</p>	
 						<p>I love programming, writing, speaking, and traveling. I worked as a Campaign Manager at P&P Interactive, Recruiter at MyOutDesk and got my BS at Adamson University.</p>
 						<p>I have a 8 year old son named <strong>Shane</strong> and he's my Everything!</p>
 					</div>
-					<div class="col-sm-6"  id="skills">
+					<div class="col-lg-6 col-md-12 col-sm-12"  id="skills">
 							<div class="container">
-								<h1 class="text-center about-intro mt-5">My Technical Skills</h1>
-								<div class="row">
-									<div class="col-sm-3">
+								<h1 class="text-center about-intro mt-5 mb-5">My Technical Skills</h1>
+								<div class="row skillsImages">
+									<div class="col-sm-6 col-md-6 col-lg-3">
 										<img src="assets/images/html.png" class="img-fluid">	
 									</div>
-									<div class="col-sm-3">
+									<div class="col-sm-6 col-md-6 col-lg-3">
 										<img src="assets/images/css.png" class="img-fluid">	
 									</div>
-									<div class="col-sm-3">
+									<div class="col-sm-6 col-md-6 col-lg-3">
 										<img src="assets/images/jq.png" class="img-fluid">	
 									</div>
 									<div class="col-sm-3">
@@ -99,6 +111,16 @@
 									<div class="col-sm-3">
 										<img src="assets/images/gith.png" class="img-fluid">	
 									</div>
+									<div class="col-sm-3">
+										<img src="assets/images/heroku.png" class="img-fluid">
+									</div>
+									<div class="col-sm-3">
+										<img src="assets/images/mongodb.png" class="img-fluid">
+									</div>
+									<div class="col-sm-3">
+										<img src="assets/images/gitlab.png" class="img-fluid">
+									</div>
+
 									
 							</div> <!-- end of row -->
 						</div>						
@@ -111,12 +133,12 @@
 		<section class="exps-bg mt-5">
 			<div class="container">
 				<div class="row text-center">
-					<div class="col-sm-4">
-			            <div class="card card-1">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+			            <div class="card">
 			                <div class="card-body mx-auto mt-5 mb-5">
 			                	<div class="card-title">
 				                	<i class="fas fa-building"></i>
-				                	<h2 class="font-weight-bold text-uppercase">
+				                	<h2 class="card-title_text font-weight-bold text-uppercase">
 				                    Experiences
 				                  </h2>
 				                </div>
@@ -133,52 +155,46 @@
 			            </div>
 		          	</div>	
 
-		          	<div class="col-sm-4">
-			            <div class="card card-2">
-			                <div class="card-body mx-auto mt-5 mb-5">
+		          	<div class="col-lg-4 col-md-12 col-sm-12">
+			            <div class="card">
+			                <div class="card-body mx-auto mt-5 mb-4">
 			                	<div class="card-title">
 				                	<i class="fas  fa-graduation-cap"></i>
-				                	<h2 class="font-weight-bold text-uppercase myRale">
+				                	<h2 class="card-title_text font-weight-bold text-uppercase">
 				                    education
 				                  </h2>
 				                </div>
 				                <p class="card-text text-left mt-4">
 				                	2005 : 2010 - B.S in Business Administration Major in Management at <a href="https://www.adamson.edu.ph/2018/" alt="P&P">Adamson University</a>
 				                	<br />
-					                20-- : 2000 - Secondary Diploma
+					                2000 : 2004 - Secondary Diploma
 					                <a href="https://www.Tabugon.edu/"	
 					                >Tabugon National High School</a>
 					                <br />
-					                20-- : 2000 - Primary Diploma
+					                1994 : 2000 - Primary Diploma
 					                <a href="https://www.Tabugon.edu/"	
 					                >Tabugon National High School</a>
 				                </p>
 				            </div>
 			            </div>
 		          	</div>
-		          	<div class="col-sm-4">
-			            <div class="card card-3">
+		          	<div class="col-lg-4 col-md-12 col-sm-12">
+			            <div class="card">
 			                <div class="card-body mx-auto mt-5 mb-5">
-			                	<div class="card-title">
+			                	<div class="card-title card_title-3">
 				                	<i class="fas fa-code"></i>
-				                	<h2 class="font-weight-bold text-uppercase myRale">
+				                	<h2 class="card-title_text font-weight-bold text-uppercase">
 				                    Hobbies
 				                  </h2>
 				                </div>
-				                <p class="card-text text-left mt-4">
+				                <p class="card-text mt-4">
 				                	<ol>
 				                		<li>Web Development</li>
 				                		<li>Web Design</li>
-				                		<li>Poetry</li>
-				                		<li>Cooking</li>
-				                		<li>Singing</li>
+				                		<li>Photo Editing</li>
+				                		<li>Reading</li>
+				                		<li>Travelling</li>
 				                	</ol>
-					                <!-- 2016-2019 : Web Development <br />
-					                2016-2019 : Web Design <br />
-					                Poetry <br />
-					                Cooking <br />
-					                Singing <br />
-					                Eating <br /> -->
 				                </p>
 				            </div>
 			            </div>
@@ -190,70 +206,66 @@
 
 		<section  class="projects" id="projects">
 			<div class="container">
-				<h1 class="title text-center text-dark">My Recent Projects</h1>
+				<h1 class="title text-center text-dark mt-5">My Recent Projects</h1>
 				<div class="row">			
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-md-12 col-sm-12">
 						<figure class="snip0019">
-						<img class="img-fluid rounded " src="assets/images/pic1.jpg">
+						<img class="wow bounceInLeft img-fluid rounded data-wow-duration="2s" data-wow-delay="3s"" src="assets/images/pic1.jpg">
 						<figcaption>
 							<div><h2>I <span>propose</span> we Talk About <span>Fashion</span> </h2></div>
-								<div><p> N-Collections presents allows you to purchase online with no hassle. Click the button to learn more!</p></div>
-								<a href="https://aporadonelly.github.io/Project---Capstone-1-/"></a>
+								<div><p class="projectDesc">A static blog website built purely on HTML5, CSS3, Bootstrap and some Javascript. Click the button to learn more!</p></div>
+								<a href="https://aporadonelly.github.io/Project---Capstone-1-/" target="_blank"></a>
 						</figcaption>			
 					</figure>
-						<a class="btn btn-primary btn-lg btn-block button" href="https://aporadonelly.github.io/Project---Capstone-1-/" role="button">learn more</a>
+						<a class="btn btn-primary text-dark btn-lg btn-block button" href="https://aporadonelly.github.io/Project---Capstone-1-/" role="button" target="_blank">learn more</a>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-md-12 col-sm-12">
 						<figure class="snip0019">
-						<img class="img-fluid rounded" src="assets/images/pic2.jpeg">
+						<img class="wow bounceInUp img-fluid rounded data-wow-duration="2s" data-wow-delay="3s"" src="assets/images/pic2.jpeg">
 						<figcaption>
 							<div><h2>If we wanted more <span>leisure</span></h2></div>
-							<div><p>We'd invent machines that do things less efficiently.</p></div>
-							<a href="#"></a>
+							<div><p class="projectDesc">An ecommerce website built on PHP, Laravel, Javascript, CSS, & Ajax. Used MySql for database & Heroku for deployment.</p></div>
+							<a href="http://radiant-scrubland-49826.herokuapp.com/" target="_blank"></a>
 						</figcaption>			
 					</figure>
-						<a class="btn btn-primary btn-lg btn-block button" href="#" role="button">learn more</a>
+						<a class="btn btn-primary btn-lg text-dark btn-block button" href="#" role="button" target="_blank">learn more</a>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-md-12 col-sm-12">
 						<figure class="snip0019">
-							<img class="img-fluid rounded" src="assets/images/pic3.jpeg">
+							<img class="wow bounceInRight img-fluid rounded data-wow-duration="2s" data-wow-delay="3s"" src="assets/images/pic3.jpeg">
 						<figcaption>
 								<div><h2>I <span>propose</span> we leave <span>math</span> </h2></div>
-								<div><p>To the machines and go play outside.</p></div>
+								<div><p class="projectDesc">To the machines and go play outside.</p></div>
 								<a href="#"></a>
 							</figcaption>			
 						</figure>
-						<a class="btn btn-primary btn-lg btn-block button" href="#" role="button">learn more</a>
+						<a class="btn btn-primary btn-lg text-dark btn-block button" href="#" role="button">learn more</a>
 					</div>
 				</div>
 			</div>
 		</section> <!-- end of projects section-->
 
-		<section class="container-fluid contactMe" id="contacts">
-		<div class="container">
+		<section class="container-fluid contactMe">
+		<div class="container" id="contacts">
 			<div class="row">
-				<div class="col-sm-6 mt-5">
-					<h3 class="text-center text-light mt-5 text-uppercase">Let's Work Together</h3> 
-					<form class="mt-5 pb-5">
+				<div class="col-lg-6 col-md-12 col-sm-12" id="contact_Me">
+					<h3 class="text-center text-light text-uppercase mb-5">Let's Work Together</h3> 
+					<form class="pb-5">
 						<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required="true">
 					    <input type="email" class="form-control mt-4" id="email" aria-describedby="emailHelp" placeholder="Enter email" required="true">
-					    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+					    <!-- <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small> -->
 					    <input type="number" class="form-control mt-4" id="number" aria-describedby="emailHelp" placeholder="Enter phone number">
 					    <textarea class="form-control mt-4" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message" required="true"></textarea>
-					    <button type="submit" id="submit" class="btn mt-3 button btn-block"><a href="#"></a> Submit</button>
+					    <button type="submit" id="submit" class="btn mt-3 button btn-block mt-5 mb-5"><a href="#"></a> Submit</button>
 					</form>
 				</div>
-				<div class="col-sm-6 mt-5 embed-responsive embed-responsive-100x400px"">
+				<div class="col-lg-6 col-md-12 col-sm-12 mt-5 embed-responsive embed-responsive-100x400px"">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358560.617600448!2d12.101553361936094!3d45.40420073567337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1daf1d63d89%3A0x7ba3c6f0bd92102f!2sVenice%2C+Metropolitan+City+of+Venice%2C+Italy!5e0!3m2!1sen!2sph!4v1545111499755" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>			
 			</div>
 		</div>
 	</section>
 
-	<!-- <footer class="footer">
-		<p>Copyright &copy N-COLLECTIONS | 2018</p>
-	</footer> -->
-	<!-- Footer -->
 	<footer class="page-footer font-small">
 	    <!-- Footer Elements -->
 	    <div class="container-fluid">
@@ -282,26 +294,21 @@
 			            ">
 			            <i class="fab fa-linkedin-in fa-sm white-text mr-md-5 mr-3 fa-2x"> </i>
 			            </a>
-			            <!--Instagram-->
-			            <a href="https://www.instagram.com/" class="ins-ic" title="Instagram" target="_blank
-			            ">
-			            <i class="fab fa-instagram fa-sm white-text mr-md-5 mr-3 fa-2x"> </i>
-	           			 </a>
-			            <!--Pinterest-->
-			            <a href="https://www.pinterest.ph/" class="pin-ic" title="Pinterest" target="_blank
-	            		">
-	             		<i class="fab fa-pinterest fa-sm white-text fa-2x"> </i>
-	           			 </a>
 	         		 </div>
 	        	</div><!-- Grid column -->
 			    <div class="col-sm-6 footer-copyright">
-			    	<p class="text-light footer-content text-center">© 2018 Copyright: N-COLLECTIONS</p>
+			    	<p class="text-light footer-content text-center mt-2">© 2018 Copyright: Nelly Rose T. Aporado</p>
 			    </div><!-- Copyright -->
 	     	</div> <!-- Grid row-->
 	    </div><!-- Footer Elements -->
 	</footer><!-- Footer -->
 
 	</main>
+
+	 <script src="assets/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 	<script src="assets/script/script.js"></script>
 
 	<!-- bootstrap -->

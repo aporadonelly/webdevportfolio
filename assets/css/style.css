@@ -7,12 +7,14 @@
 
 
 .bg {	
-	background: url('../images/pic4.jpeg')no-repeat center center fixed;
+	/*background: url('../images/bgboat.jpeg')no-repeat center center fixed;*/
+  background:url('https://images.pexels.com/photos/1571734/pexels-photo-1571734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size: cover;
 	height: 100vh;
+  opacity: .9;
 }
 
 .navbar {
@@ -33,26 +35,21 @@
 }
 
 .nLogo {
-	font-family: Italianno, Charm, serif;	
+	font-family: Bodoni, Charm, serif;	
 	font-size: 30px;
 	color: #fff;
 }
 
 .highlight {
-	/*color:#D80032;*/
   color: #fff;
-	font-family: Italianno, Charm, serif;  
-  margin-top: 50px;
+  margin-top: 40px;
+  font-size: 70px;
+  text-shadow: 2px 5px gray;
 }
 
-/*.about {
-	margin-top: 50px;  
-}*/
-
-.aboutMe {
-  top: 50px;
-  bottom: 50px;
-  padding-bottom:100px;
+.about {
+  top: 100px;
+  padding-bottom:150px;
 }
 
 .myImage {
@@ -65,7 +62,8 @@
 
 .about-intro {
   color: indianred/*#D80032*/;
-  margin-bottom: 25px;  
+  margin-bottom: 25px;
+  margin-top: 70px;  
  /* */
 }
 .hello {
@@ -73,14 +71,21 @@
   font-weight: bold;
 }
 
-.about-para {
+.aboutMe-para {
  /* margin-top: 50px;*/
   text-align: left;
 }
 
 .welcome-message {
 	letter-spacing: 5px;
-  margin-top: 160px;
+  margin-top: 180px;
+  /*background: rgba(0,0,0,.5);*/
+}
+
+
+#skills{
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
 
 .progress-bar {
@@ -102,20 +107,9 @@ ol li {
    background: rgba(255,255,255,.7);
   }
 
-  /*.card-1 {
-   background: rgba(40,83,107,.9);
-  }
-
-  .card-2 {
-    background: #F7CB15;
-  }
-
-  .card-3 {
-    background: #EDAFB8;
-  }*/
-
 .exps-bg {
-  background: url('../images/pic4.jpeg')no-repeat right center fixed;
+  /*background: url('../images/pic4.jpeg')no-repeat right center fixed;*/
+  background: url('../images/bgboat.jpeg')no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -123,6 +117,15 @@ ol li {
   /*background: #E0CA3C;*/
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.card_title-3 {
+  line-height: 58px;
+  /*letter-spacing: .5em;*/
+}
+
+.card-title_text {
+  letter-spacing: .2em;
 }
 
 .fas {
@@ -154,12 +157,12 @@ ol li {
   -o-background-size:cover;
   background-size: cover;
   /*background: #E0CA3C;*/
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .title {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 50px;
   color:#D80032;
   text-transform: uppercase;
@@ -238,12 +241,13 @@ ol li {
 }
 
 .button:hover {
-  border: 4px solid #cc879e;
+  border: 1px solid #cc879e;
 }
 
 .contactMe {
   background: #048A81;
   /*background: rgba(40,83,107,.9);*/
+  margin-top: 50px;
   margin-bottom: 50px;
   /*background: url('../images/contact2.jpeg')no-repeat right center fixed;
   -webkit-background-size: cover;
@@ -253,6 +257,11 @@ ol li {
   padding-bottom: 50px;
   height: auto;
   /*background: #eaeaea;*/
+}
+
+
+#contact_Me{
+  margin-top: 100px;
 }
 
 .embed-responsive-100x400px{
@@ -298,6 +307,10 @@ figure.snip0019 {
   background: #000000;
   text-align: center;
 
+}
+
+.projectDesc{
+  padding: 1.5em;
 }
 figure.snip0019 * {
   -webkit-box-sizing: border-box;
@@ -427,6 +440,7 @@ figure.snip0019:hover figcaption::before {
   font-family: 'HelveticaNeue';
   font-weight: 100;
   color:#fff;
+  text-shadow: 4px 3px gray;
   
 }
 
@@ -454,8 +468,9 @@ em {
 @media only screen and (max-width: 400px) {
 
   * {
+    padding:0;
     margin:0;
-    padding: 0;
+    box-sizing: border-box;
   }
 
   body {
@@ -470,7 +485,7 @@ em {
   }
 
   .welcome-message {
-    letter-spacing: 1px;  
+    letter-spacing: 1px; 
   }
 
   .welcome-message h1 {
@@ -490,7 +505,25 @@ em {
     width: 150px;
     border: 5px solid #fff;
   }
+
+  .highlight{
+    font-size: 18px;    
+  }
 }
 
 
 
+@media only screen and (min-width: 401px, max-width: 770) {  
+  .highlight {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 180px;
+  }
+
+  .welcome-message {
+    letter-spacing: 5px;
+    margin-bottom: 220px;
+    /*background: rgba(0,0,0,.5);*/
+  }
+
+}
