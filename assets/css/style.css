@@ -529,11 +529,20 @@ em {
   .highlight{
     font-size: 18px;    
   }
+
+  .skillsImages{
+    height: 170px;
+    width: 170px;
+   
+  }
+
+
+
 }
 
 
 
-@media only screen and (min-width: 401px, max-width: 770) {  
+@media only screen and (max-width: 770px) and (min-width: 401px){  
   .highlight {
     color: #fff;
     font-size: 18px;
@@ -544,6 +553,12 @@ em {
     letter-spacing: 5px;
     margin-bottom: 220px;
     /*background: rgba(0,0,0,.5);*/
+  }
+
+   .skillsImages{
+    height: 170px;
+    width: 170px;
+   
   }
 
 }
