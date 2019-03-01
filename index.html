@@ -53,12 +53,15 @@
 						</div>		
 					</div>
 				</div>
+				<section>
+					<a href="#about" class="scroll-down" address="true"></a>
+				</section>
 			</div>			
 		</section>
 
 		<!-- <section id="about">
 			<div class="container">	
-				<div class="d-flex justify-content-center align-items-start">
+				<div class="d-flex justify-content-left align-items-start">
 					<div>								
 						<img class="wow bounceInUp d-block myImage mx-auto data-wow-duration="2s" data-wow-delay="2s"" src="assets/images/aboutMe.jpg" alt="Nelly on the mall"></a>
 					</div>
@@ -77,50 +80,48 @@
 						<p>I have a 8 year old son named <strong>Shane</strong> and he's my Everything!</p>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-2"  id="skills">
-							<div class="container">
-								<h1 class="text-center about-intro mt-5 mb-5">My Technical Skills</h1>
-								<div class="row">
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/html.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/css.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/jq.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/js.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/boot.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/php.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/mysqli.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/laravel.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/git.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/gith.png" class="img-fluid">	
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/heroku.png" class="img-fluid">
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/mongodb.png" class="img-fluid">
-									</div>
-									<div class="col-lg-3 skillsImages">
-										<img src="assets/images/gitlab.png" class="img-fluid">
-									</div>
-
-									
+						<div class="container">
+							<h1 class="text-center about-intro mt-5 mb-5">My Technical Skills</h1>
+							<div class="row">
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/html.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/css.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/jq.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/js.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/boot.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/php.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/mysqli.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/laravel.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/git.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/gith.png" class="img-fluid">	
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/heroku.png" class="img-fluid">
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/mongodb.png" class="img-fluid">
+								</div>
+								<div class="col-lg-3 skillsImages">
+									<img src="assets/images/gitlab.png" class="img-fluid">
+								</div>									
 							</div> <!-- end of row -->
 						</div>						
 					</div>
@@ -316,6 +317,13 @@
    		$(window).scroll(function(){
         	$('nav').toggleClass('scrolled', $(this).scrollTop() > 550);
  		});
+
+ 		 $(function() {
+    $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+      return false;
+    });
+  });
 	</script>
 </body>
 </html>
