@@ -204,6 +204,25 @@ ol li {
   position: relative;
   z-index: 1;
   letter-spacing: 2px;
+  color: indianred;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid indianred;
+  cursor: pointer;
+}
+
+.button_contact{
+  text-transform: uppercase;
+  /*float: center;*/
+  /*min-width: 150px;*/
+  width: 99%;
+  /*display: block;*/
+ /* padding: 1em 2em;*/
+  background: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 2px;
   color: #fff;
   font-weight: bold;
   font-size: 16px;
@@ -256,8 +275,12 @@ ol li {
 
 .button:hover {
   border: 1px solid #cc879e;
+  color:#fff;
 }
-
+.button_contact:hover{
+  border: 1px solid #cc879e;
+  color:#fff;
+}
 .contactMe {
   /*background: #E0CA3C;*/
   /*background: rgba(40,83,107,.9);*/
