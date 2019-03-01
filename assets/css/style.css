@@ -1,8 +1,13 @@
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: Raleway, Helvetica, serif;
+}
+
+body{
+  background: #FAFBFC;
 }
 
 
@@ -17,9 +22,17 @@
   opacity: .9;
 }
 
-.navbar {
-  background: #2D3047;
-  border-bottom: 5px solid #E0CA3C;
+.bg-dark {
+  /*background: #2D3047;*/
+  /*background: rgba(0,0,0,.5);*/
+  transition: 500ms ease;
+  background: transparent !important;
+  color: #000;  
+}
+
+.bg-dark.scrolled{
+  background: #2D3047 !important; 
+  border-bottom: 5px solid #E0CA3C; 
 }
 
 .nav-link {
@@ -151,12 +164,13 @@ ol li {
   padding-bottom: 100px;
   height: auto;
   margin-bottom: 40px;*/
-  background: url('../images/contact2.jpeg')no-repeat right center fixed;
+  /*background: url('../images/contact2.jpeg')no-repeat right center fixed;
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size:cover;
-  background-size: cover;
-  /*background: #E0CA3C;*/
+  background-size: cover;*/
+  
+  background: #fff;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -245,15 +259,15 @@ ol li {
 }
 
 .contactMe {
-  background: #048A81;
+  /*background: #E0CA3C;*/
   /*background: rgba(40,83,107,.9);*/
   margin-top: 50px;
   margin-bottom: 50px;
-  /*background: url('../images/contact2.jpeg')no-repeat right center fixed;
-  -webkit-background-size: cover;
+  background: url('../images/bgboat.jpeg')no-repeat center center fixed;
+    -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size:cover;
-  background-size: cover;*/
+  background-size: cover;
   padding-bottom: 50px;
   height: auto;
   /*background: #eaeaea;*/
@@ -262,11 +276,17 @@ ol li {
 
 #contact_Me{
   margin-top: 100px;
+  background: rgba(0,0,0,.5);
 }
 
 .embed-responsive-100x400px{
   padding-bottom: 400px;
   height: auto;
+  margin-top: 100px;
+}
+
+#contacts{
+  margin-top: 50px;
 }
 
 .fab {
