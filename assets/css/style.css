@@ -12,14 +12,14 @@ body{
 
 
 .bg {	
-	/*background: url('../images/bgboat.jpeg')no-repeat center center fixed;*/
-  background:url('https://images.pexels.com/photos/1571734/pexels-photo-1571734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')no-repeat center center fixed;
+	/*background: url('../images/aboutMe.jpg')no-repeat center center fixed;*/
+  background:url('https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.0-9/51304425_2030793097010615_2713378170869907456_n.jpg?_nc_cat=101&_nc_ht=scontent.fmnl6-1.fna&oh=49e84b67c08c482986f9ff4ed1cef1a1&oe=5CE30B78')no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size: cover;
 	height: 100vh;
-  opacity: .9;
+ /* opacity: .9;*/
 }
 
 .bg-dark {
@@ -616,8 +616,9 @@ em {
   }
 
   .skillsImages{
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 33%;
+    float:left;
    
   }
 
@@ -639,8 +640,9 @@ em {
   }
 
    .skillsImages{
-    height: 170px;
-    width: 170px;
+    float:left;
+    height: 150px;
+    width: 33%;
    
   }
 
