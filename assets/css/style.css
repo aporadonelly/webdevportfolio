@@ -336,7 +336,7 @@ ol li {
 }
 
 .social-icon {
-  /*margin-left: 35%;*/
+  padding-left: 10px;
   font-size:10px;
 }
 
@@ -641,7 +641,9 @@ em {
     float:left;
    
   }
-
+.fa-mobile-alt{
+  text-align: center;
+}
  
 
 }
