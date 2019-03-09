@@ -324,6 +324,7 @@ ol li {
   font-size:20px;
 }
 
+
 .far{
   color: #fff;
   font-size:25px;
@@ -630,7 +631,7 @@ em {
   }
 
   .highlight{
-    font-size: 18px;    
+    font-size: 18px;        
   }
 
   .skillsImages{
@@ -639,6 +640,8 @@ em {
     float:left;
    
   }
+
+ 
 
 }
 
