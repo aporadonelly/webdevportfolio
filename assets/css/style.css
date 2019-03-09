@@ -3,11 +3,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Raleway, Helvetica, serif;
+	font-family: Raleway, Abel, serif;
 }
 
 body{
   background: #FAFBFC;
+  font-family: Raleway, Abel, serif;
 }
 
 
