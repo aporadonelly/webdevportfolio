@@ -316,6 +316,7 @@ ol li {
 .fab {
   /*color: rgba(157, 213, 242, 1);*/
   color: #fff;
+  font-size:18px;
  /* margin-top: 20px;*/
 }
 
@@ -345,9 +346,7 @@ ol li {
   border-top: 5px solid #E0CA3C;
 }
 
-.page-footer .fab {
-  margin-top: 5px;
-}
+
 
 .footer-copyright {
   margin-top: 40px;
