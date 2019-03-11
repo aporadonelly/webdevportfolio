@@ -41,8 +41,8 @@
         // "Hello,",
         // "I am Nelly.",
         "a Web Designer. ",
-        "a Web Developer. ",
-        "a Proud MO️M. "
+        "a Web Developer. "
+        // "a Proud MO️M. "
       ]
         
       var counter = 0
